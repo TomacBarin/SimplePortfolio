@@ -7,7 +7,7 @@ body {
 
 .silkscreen-large {
   font-family: "Silkscreen", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-size: 100px;
 }
@@ -16,6 +16,10 @@ body {
   font-family: "Silkscreen", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.text-bold {
+    font-weight: bold;
 }
 
 .container {
@@ -51,4 +55,12 @@ body {
 
 .hideText {
     color: #181818;
+}
+
+.portfolio-margin {
+    padding: 20px;
+}
+
+a:visited {
+    color: #aeaeae; /* Eller vilken färg du vill, t.ex. #800080 */
 }
