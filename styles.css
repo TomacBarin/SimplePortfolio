@@ -2,8 +2,8 @@ body {
     background-color: #181818;
     font-family: "IBM Plex Mono", monospace;
     color: #aeaeae;
-    margin: 0 auto;
-    text-align: center;
+    margin: 0;
+    /*text-align: center;*/
 }
 
 .silkscreen-large {
@@ -20,8 +20,20 @@ body {
   font-style: normal;
 }
 
-p {
+.container {
+    width: 40%;
+    margin: 0 auto;
     
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.box {
+    width: 300px; /* Fast bredd för boxen */
+    margin: auto; /* Centrerar boxen horisontellt */
+
 }
 
 .bg-LightGray {
