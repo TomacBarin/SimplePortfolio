@@ -1,6 +1,17 @@
 body {
     background-color: #181818;
+    min-height: 100vh; /*Centrerar allt vertikalt, tillsammans med align-items i section*/
+
     
+}
+
+section {
+    /* Detta centrerar allt horisontellt */
+    display: flex;
+    justify-content: center;
+    /* Detta centrerar allt vertikalt, tillsammans med min-height i body */
+    align-items: center;
+
 }
 
 .bg-LightGray {
@@ -8,3 +19,12 @@ background-color: #2e2e2e;
 }
 
 
+.imageCenter {
+    border-radius: 20px;
+    border: 1px solid #dbdbdb;
+}
+
+/*Detta är för att centrera texten i Why Fullstack?*/
+.textAlign {
+    text-align: center;
+}
