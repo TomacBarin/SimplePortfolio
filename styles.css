@@ -1,8 +1,27 @@
 body {
     background-color: #181818;
     min-height: 100vh; /*Centrerar allt vertikalt, tillsammans med align-items i section*/
-
+    font-family: "IBM Plex Mono", monospace;
+    color: #aeaeae;
     
+}
+
+.silkscreen-large {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+}
+
+
+.silkscreen-regular {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.marginFix {
+    margin-left: 50px;
 }
 
 section {
