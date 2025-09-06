@@ -1,9 +1,8 @@
 body {
-    background-color: #181818;
-    font-family: "IBM Plex Mono", monospace;
-    color: #aeaeae;
-    margin: 0;
-    /*text-align: center;*/
+  background-color: #181818;
+  font-family: "IBM Plex Mono", monospace;
+  color: #aeaeae;
+  margin: 0;
 }
 
 .silkscreen-large {
@@ -13,7 +12,6 @@ body {
   font-size: 100px;
 }
 
-
 .silkscreen-regular {
   font-family: "Silkscreen", sans-serif;
   font-weight: 400;
@@ -21,26 +19,36 @@ body {
 }
 
 .container {
-    width: 40%;
-    margin: 0 auto;
-    
+  width: 80%; /* Ökad bredd för bättre responsivitet */
+  max-width: 600px; /* Maxbredd för att undvika för bred layout på stora skärmar */
+  margin: 0 auto; /* Centrerar containern */
+  padding: 50px; /* Lite luft runt innehållet */
 }
 
 .textCenter {
-    text-align: center;
+  text-align: center;
 }
 
 .box {
-    width: 300px; /* Fast bredd för boxen */
-    margin: auto; /* Centrerar boxen horisontellt */
+  margin: 0 auto; /* Centrerar listor och text */
+  text-align: left; /* Vänsterjusterar text i listor och stycken */
+  width: 300px;
 
 }
 
 .bg-LightGray {
-background-color: #2e2e2e;
+  background-color: #2e2e2e;
 }
 
-img {
-    border-radius: 25px;
-    border: 1px solid #aeaeae;
+.centered-image {
+  display: block; /* Gör bilden till ett blockelement för att kunna centrera */
+  margin: 50px auto; /* Centrerar bilden horisontellt */
+  max-width: 100%; /* Gör bilden responsiv */
+  border-radius: 25px;
+  border: 1px solid #aeaeae;
+  
+}
+
+.hideText {
+    color: #181818;
 }
