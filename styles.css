@@ -19,7 +19,7 @@ body {
 }
 
 .text-bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .container {
@@ -37,7 +37,6 @@ body {
   margin: 0 auto; /* Centrerar listor och text */
   text-align: left; /* Vänsterjusterar text i listor och stycken */
   width: 300px;
-
 }
 
 .bg-LightGray {
@@ -50,17 +49,20 @@ body {
   max-width: 100%; /* Gör bilden responsiv */
   border-radius: 25px;
   border: 1px solid #aeaeae;
-  
 }
 
 .hideText {
-    color: #181818;
+  color: #181818;
 }
 
 .portfolio-margin {
-    padding: 20px;
+  padding: 20px;
+}
+
+a {
+  color: #aeaeae;
 }
 
 a:visited {
-    color: #aeaeae; /* Eller vilken färg du vill, t.ex. #800080 */
+  color: #aeaeae; /* Eller vilken färg du vill, t.ex. #800080 */
 }
